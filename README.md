@@ -34,6 +34,27 @@
 - **Office Management System** *(Jan 2024 – Jun 2025 · Full Stack)*: An 11-module microservice platform for a government regulator. I built access control, employee records and HR workflows such as promotions, transfers and multi-step leave approvals. `Angular` `Node.js` `Express.js` `Oracle` `JasperReports`
 - **Centralized University Admission Platform** *(2023 · Full Stack)*: One admission system shared by a group of public universities, covering application, payment, admit cards and results. It is built for high-concurrency admission seasons. I worked across the portals, APIs and database and designed the official PDF documents. `Angular` `Node.js` `Express.js` `PostgreSQL` `JasperReports`
 
+## Personal projects
+
+- **[History Of](https://history-of.nazmussakib.app)** *([source](https://gitlab.com/eng-nazmussakib/history-of-app))*: Type a country and see its whole history on one timeline, covering 191 countries and 5,000+ sourced events. Seed scripts collect events from Wikidata and Wikipedia, parse BCE and fuzzy dates such as "c. 1200", remove duplicates and keep a source link for every event. Search handles names, aliases and typos with PostgreSQL full-text search and pg_trgm and timeline pages are cached on Cloudflare. `Next.js` `React` `PostgreSQL` `Neon` `Cloudflare Workers`
+
 ## Tools
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=ts,js,py,angular,react,nextjs,tailwindcss,nodejs,express,nestjs,postgres,oracle,mysql,docker,kubernetes" alt="TypeScript, JavaScript, Python, Angular, React, Next.js, Tailwind CSS, Node.js, Express.js, NestJS, PostgreSQL, Oracle, MySQL, Docker, Kubernetes" height="48" /> <img src="images/jasperreports.svg" alt="JasperReports" title="JasperReports" height="48" />
+<p>
+  <img src="images/icons/ts.svg" alt="TypeScript" title="TypeScript" width="48" height="48" />
+  <img src="images/icons/js.svg" alt="JavaScript" title="JavaScript" width="48" height="48" />
+  <img src="images/icons/py.svg" alt="Python" title="Python" width="48" height="48" />
+  <img src="images/icons/angular.svg" alt="Angular" title="Angular" width="48" height="48" />
+  <img src="images/icons/react.svg" alt="React" title="React" width="48" height="48" />
+  <img src="images/icons/nextjs.svg" alt="Next.js" title="Next.js" width="48" height="48" />
+  <img src="images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS" width="48" height="48" />
+  <img src="images/icons/nodejs.svg" alt="Node.js" title="Node.js" width="48" height="48" />
+  <img src="images/icons/express.svg" alt="Express.js" title="Express.js" width="48" height="48" />
+  <img src="images/icons/nestjs.svg" alt="NestJS" title="NestJS" width="48" height="48" />
+  <img src="images/icons/jasperreports.svg" alt="JasperReports" title="JasperReports" width="48" height="48" />
+  <img src="images/icons/postgres.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" />
+  <img src="images/icons/oracle.svg" alt="Oracle" title="Oracle" width="48" height="48" />
+  <img src="images/icons/mysql.svg" alt="MySQL" title="MySQL" width="48" height="48" />
+  <img src="images/icons/docker.svg" alt="Docker" title="Docker" width="48" height="48" />
+  <img src="images/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="48" height="48" />
+</p>
