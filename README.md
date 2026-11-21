@@ -36,6 +36,7 @@
 
 ## Personal projects
 
+- **[FitManager](https://fitmanager.nazmussakib.app)** *([web](https://gitlab.com/eng-nazmussakib/fitmanager-web) · [api](https://gitlab.com/eng-nazmussakib/fitmanager-api))*: Gym management software for a gym with 3 branches, run as a free public demo where anyone can sign in as any of 6 roles. Each branch is a tenant: the API filters every query by branch and PostgreSQL row-level security enforces the same rule in the database. One Angular app holds the public gym pages (prerendered for search engines), the branch and head office consoles and a member portal, on an in-house component kit. Its 17 modules cover memberships, payments, check-in, classes, stock, a shop, discipline cases and reports, with role-based permissions checked in both the API and the UI. `Angular` `Tailwind CSS` `Node.js` `Express.js` `PostgreSQL` `Neon` `Cloudflare Workers`
 - **[History Of](https://history-of.nazmussakib.app)** *([source](https://gitlab.com/eng-nazmussakib/history-of-app))*: Type a country and see its whole history on one timeline, covering 191 countries and 5,000+ sourced events. Seed scripts collect events from Wikidata and Wikipedia, parse BCE and fuzzy dates such as "c. 1200", remove duplicates and keep a source link for every event. Search handles names, aliases and typos with PostgreSQL full-text search and pg_trgm and timeline pages are cached on Cloudflare. `Next.js` `React` `PostgreSQL` `Neon` `Cloudflare Workers`
 
 ## Tools
